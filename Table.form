@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="showTable" min="-2" pref="87" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="945" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+              <Component id="showTable" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="488" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="showTable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="show table "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showTableActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="32" rowCount="0">
+                <Column editable="true" title="count point id" type="java.lang.Integer"/>
+                <Column editable="true" title="direction of travel" type="java.lang.String"/>
+                <Column editable="true" title="year" type="java.lang.String"/>
+                <Column editable="true" title="count date" type="java.lang.String"/>
+                <Column editable="true" title="hour" type="java.lang.String"/>
+                <Column editable="true" title="region id" type="java.lang.String"/>
+                <Column editable="true" title="region name" type="java.lang.String"/>
+                <Column editable="true" title="local authority id" type="java.lang.String"/>
+                <Column editable="true" title="local authority name" type="java.lang.String"/>
+                <Column editable="true" title="road name" type="java.lang.String"/>
+                <Column editable="true" title="road type" type="java.lang.String"/>
+                <Column editable="true" title="start junction road name" type="java.lang.String"/>
+                <Column editable="true" title="end junction road name" type="java.lang.String"/>
+                <Column editable="true" title="easting" type="java.lang.String"/>
+                <Column editable="true" title="northing" type="java.lang.String"/>
+                <Column editable="true" title="latitude" type="java.lang.String"/>
+                <Column editable="true" title="longitude" type="java.lang.String"/>
+                <Column editable="true" title="link length km" type="java.lang.String"/>
+                <Column editable="true" title="link length miles" type="java.lang.String"/>
+                <Column editable="true" title="pedal cycles" type="java.lang.String"/>
+                <Column editable="true" title="two wheeled motor vehicles" type="java.lang.String"/>
+                <Column editable="true" title="cars and taxis" type="java.lang.String"/>
+                <Column editable="true" title="busses and coaches" type="java.lang.String"/>
+                <Column editable="true" title="lgvs" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 2 rigid axle" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 3 rigid axle" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 4 mor more rigid axle" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 3 or 4 articulated axle" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 5 articulated axle" type="java.lang.String"/>
+                <Column editable="true" title="hgvs 6 articulated axle" type="java.lang.String"/>
+                <Column editable="true" title="all hgvs" type="java.lang.String"/>
+                <Column editable="true" title="Password" type="java.lang.String"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
